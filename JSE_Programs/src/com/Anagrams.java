@@ -1,3 +1,4 @@
+							//program on anagram
 package com;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,7 +17,7 @@ public class Anagrams {
 			System.out.println("enter second string");
 			String s2=(br.readLine());
 			s2=s2.replaceAll("\\s", "");
-			//condi
+			
 			if(s1.length()!=s2.length()) {
 				status=false;
 			}
