@@ -16,7 +16,7 @@ public class Anagrams {
 			System.out.println("enter second string");
 			String s2=(br.readLine());
 			s2=s2.replaceAll("\\s", "");
-			//conditioncheck
+			//condi
 			if(s1.length()!=s2.length()) {
 				status=false;
 			}
