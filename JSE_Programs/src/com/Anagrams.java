@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class Anagrams {
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
+		
 			boolean status;
 			System.out.println("enter first string");
 			BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
@@ -16,6 +16,7 @@ public class Anagrams {
 			System.out.println("enter second string");
 			String s2=(br.readLine());
 			s2=s2.replaceAll("\\s", "");
+			//conditioncheck
 			if(s1.length()!=s2.length()) {
 				status=false;
 			}
